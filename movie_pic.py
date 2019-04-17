@@ -11,3 +11,5 @@ if __name__ == '__main__':
             pic_name = pic_path.split("/")[-1]  # 获取当前遍历的图片名称
             request.urlretrieve(pic_path,filename="./imgs/"+pic_name)  # 下载图片
             print(pic_name+"下载完毕！")
+
+print('movie....')

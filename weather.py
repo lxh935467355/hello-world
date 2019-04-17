@@ -19,3 +19,4 @@ if __name__ == '__main__':
             f.write("温度："+temp)
             print("保存成功！")
 
+print('hello,world')
